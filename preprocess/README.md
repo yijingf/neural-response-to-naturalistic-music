@@ -40,3 +40,19 @@ Example
 ```
 python3 PSD_extract.py 1A --stimulus K448orig_120
 ```
+
+## Generate Classification Labels
+Encode stimulus classification labels.
+
+Usage:
+```
+python3 encode_lable.py
+```
+
+## Spike Detection
+A template matching method to detect spikes in iEEG signal, provided by Robert Quon.
+
+Usage:
+```
+python3 spike_detect.py [Session ID] [-s stimulus]
+```
